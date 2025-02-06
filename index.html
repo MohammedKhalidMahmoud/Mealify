@@ -5,33 +5,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linking Css Files -->
     <link rel="stylesheet" href="./style/special.css">
-    <link rel="stylesheet" href="../Hello/style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/hover.css">
+    <link rel="stylesheet" href="./style/media.css">
+
+    <!-- Linking Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mealify</title>
 </head>
 <body>
-    <nav class="flex">
-        <h3>Mealify</h3>
-        <ul class="list-dots-none flex">
-            <li>Home</li>
-            <li>Chefs</li>
-            <li>Gallery</li>
-            <li>Contact</li>
+    <!-- nav  -->
+    <div class="flex justify-content-space-between bg-c-white fixed top-0 left-0 w-full">
+        <h3 >Mealify.</h3>    
+        <ul class="list-dots-remove flex">
+            <li class="p-2-p font-white after relative">
+                <a class="decoration-none font-black " href="hero">Home</a>
+            </li>
+            <li class="p-2-p font-white underline relative">
+                <a class="decoration-none font-black "  href="#chefs">Chefs</a>
+            </li>
+            <li class="p-2-p font-white underline relative">
+                <a class="decoration-none font-black "  href="#gallery">Gallery</a>
+            </li>
+            <li class="p-2-p font-white underline relative">
+                <a class="decoration-none font-black"  href="#contact">Contact</a>
+            </li>
         </ul>
         <button type=""></button>
-    </nav>
-    <section class="hero">
+    </div>
+    <!-- Hero Section  -->
+    <section class="hero" id="hero">
+        <br><br> 
+        <br><br>
         <div class="content">
             <h3>ENJOY YOUR HEALTY DELICIIOUS FOOD</h3>
             <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Veniam, deserunt?
             </P>
-            <button></button>
-            <button class="w-40 h-40 b-r-circle b-w-5"></button>
+            <button class="w-120 h-40 bg-c-tomato btn-1 border-none"><span class="font-white font-17">Book a Table</span></button>
+            <button class="w-40 h-80 b-r-circle btn-2 b-solid b-tomato "></button>
             <span>Watch a Video</span>
         </div>
         <div class="img-div w-50-p p-">
             <img src="" alt="">
         </div>
     </section>
+    <!-- Chefs Section  -->
+    <section class="" id="chefs">
+        
+        <h3 class="text-center">CHEFS</h3>
+        <h2 class="text-center">OUR PROFFESIONAL CHEFS</h2>
+        <div class="flex flex-wrap">
+
+        
+            <div class="card w-full-3 bg-c-white p-2-p">
+                <div class="container w-full transition-400-ms w-95-p relative">
+                    <div class="layer flex flex-direction-column  bg-c-black absolute right-0 top-0 transition-delay-1">
+                        <i class="fa-brands fa-twitter font-white font-24 p-x-5-p p-y-2-p"></i>
+                        <i class="fa-brands fa-facebook-f font-white font-24 p-x-5-p p-y-2-p"></i>
+                        <i class="fa-brands fa-instagram font-white font-24 p-x-5-p p-y-2-p"></i>
+                        <i class="fa-brands fa-linkedin font-white font-24 p-x-5-p p-y-2-p"></i>
+                    </div>
+                    <img class="w-full relative" src="./imgs/chefs-1.jpg" alt=""> 
+                    <!-- <img src="" alt=""> -->
+                    <div class="content text-center">
+                        <h2>Walter White</h2>
+                        <h3>Master Chef</h3>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
+                        tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                        </p>
+                    </div> 
+                </div>
+            </div>      
+        
+            <div class="card w-full-3 bg-c-white p-2-p">
+                <div class="container w-full transition-400-ms w-95-p relative">
+                    <div class="layer flex flex-direction-column  bg-c-black absolute right-0 top-0 transition-delay-1">
+                        <i class="fa-brands fa-twitter font-white font-24 p-x-5-p p-y-2-p"></i>
+                        <i class="fa-brands fa-facebook-f font-white font-24 p-x-5-p p-y-2-p"></i>
+                        <i class="fa-brands fa-instagram font-white font-24 p-x-5-p p-y-2-p"></i>
+                        <i class="fa-brands fa-linkedin font-white font-24 p-x-5-p p-y-2-p"></i>
+                    </div>
+                    <img class="w-full relative" src="./imgs/chefs-1.jpg" alt=""> 
+                    <!-- <img src="" alt=""> -->
+                    <div class="content text-center">
+                        <h2>Walter White</h2>
+                        <h3>Master Chef</h3>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
+                        tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                        </p>
+                    </div> 
+                </div>
+            </div>   
+            
+                <div class="card w-full-3 bg-c-white p-2-p">
+                    <div class="container w-full transition-400-ms w-95-p relative">
+                        <div class="layer flex flex-direction-column  bg-c-black absolute right-0 top-0 transition-delay-1">
+                            <i class="fa-brands fa-twitter font-white font-24 p-x-5-p p-y-2-p"></i>
+                            <i class="fa-brands fa-facebook-f font-white font-24 p-x-5-p p-y-2-p"></i>
+                            <i class="fa-brands fa-instagram font-white font-24 p-x-5-p p-y-2-p"></i>
+                            <i class="fa-brands fa-linkedin font-white font-24 p-x-5-p p-y-2-p"></i>
+                        </div>
+                        <img class="w-full relative" src="./imgs/chefs-1.jpg" alt=""> 
+                        <!-- <img src="" alt=""> -->
+                        <div class="content text-center">
+                            <h2>Walter White</h2>
+                            <h3>Master Chef</h3>
+                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
+                            tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+    </section>
+    <!-- Gallery Section  -->
+    <section id="gallery" class="">
+        <h3 class="text-center">GALLERY</h3>
+        <h2 class="text-center">CHECK OUR GALLERY</h2>
+        <div class="">
+            <div class="obj relative w-full-3 overflow-hidden">
+                <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                    <h3 class="font-white">Pizza</h3>
+                    <p class="font-white">Hawaiian pizza with ham and pineapple</p>
+                </div>
+                <img class="w-full" src="./imgs/meal-1.jpg" alt="">
+            </div>
+            
+        </div>
+    </section>
+    <!-- Contact Section  -->
+    <section id="contact" class="">
+        <h2 class="text-center">CONTACT</h2>
+        <h3 class="text-center">NEED HELP ? CONTACT US</h3>
+        <!-- iframe  -->
+        <div class="p-x-20 p-y-10">
+            <img src="" alt="">
+            <div class="flex p-x-25  w-full-2 p-y-15">
+                <div class="p-x-20 p-y-15 ">
+                    <i class="fa-solid fa-map font-32"></i>
+                </div>
+                <div class="">
+                    <h3 class="m-b-5">Our Address</h3>
+                    <p class="m-t-5">A108 Adam Street, New York, NY 535022</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-share-nodes"></i> -->
+        <form action="" class="w-90-p margin-auto">
+            <input class="p-x-10 p-y-15 w-95-p m-y-6" type="text" required placeholder="Your Name">
+            <input class="p-x-10 p-y-15 w-95-p m-y-6" type="email" required placeholder="Your Email">
+            <input class="p-x-10 p-y-15 w-95-p m-y-6 " type="text" required placeholder="Subject">
+            <input class="p-x-10 p-y-15 w-95-p m-y-6" type="text" required placeholder="Message">
+            <button class="p-x-15 p-y-12 m-y-6 b-r-10 border-none font-18">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer  -->
+    <footer>
+        <div>
+            <div>
+                <img class="inline-block" src="" alt="">
+                <h3 class="text-center" class="inline-block"></h3>
+                <div>
+                    <p>Social Media</p>
+                    <div class="flex">
+                        <!-- 4 icons -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="text-center">Subscribe our Newsletter</h3>
+            <p>Don't miss out on our latest menu updates and exclusive offers -
+                join our newsletter today and stay up-to-date with all things Mealify!
+            </p>
+            <form action="">
+                <input class="p-x-10 p-y-15 w-65-p m-y-6" type="email" required placeholder="Enter Your Email Address">
+                <button class="w-20-p p-y-15">Subscribe</button>
+            </form>
+            <div>
+                <h3 class="text-center">Quick Links</h3>
+                <ul class="list-dots-remove afsh5anat flex flex-wrap column-gap-20 row-gap-10">
+                    <li class="bg-c-blue transition-600-ms w-45-p p-x-20 p-y-10">
+                        <a class="bg-c-black "href="">> Menu</a>
+                    </li>
+                    <li class="bg-c-blue transition-600-ms w-45-p">
+                        <a class="bg-c-black "href="">> Menu</a>
+                    </li>
+                    <li class="bg-c-blue transition-600-ms w-45-p">
+                        <a class="bg-c-black "href="">> Menu</a>
+                    </li>
+                    <li class="bg-c-blue transition-600-ms w-45-p">
+                        <a class="bg-c-black "href="">> Menu</a>
+                    </li>
+                    <li class="bg-c-blue transition-600-ms w-45-p">
+                        <a class="bg-c-black "href="">> Menu</a>
+                    </li>
+                    <li class="bg-c-blue transition-600-ms w-45-p">
+                        <a class="bg-c-black "href="">> Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div></div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,23 @@
+.underline:hover::after{
+    width:100%;
+    
+}
+
+.card:hover{
+    transform: scale(1.07,1.07);
+}
+
+.card:hover .layer{
+    
+    
+}
+
+
+.obj:hover .hello{
+   top:0%;
+
+}
+
+.afsh5anat li:hover {
+    transform: translateX(20px);
+}
