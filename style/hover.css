@@ -2,22 +2,18 @@
     width:100%;
     
 }
+.card .layer{
+    transition-delay:0.2s ;
+    
+}
 
 .card:hover{
-    transform: scale(1.07,1.07);
+    transform: scale(1.05,1.05);
 }
 
 .card:hover .layer{
-    
-    
+    left:90%;
+    transition-duration: 0.5s;  
 }
 
 
-.obj:hover .hello{
-   top:0%;
-
-}
-
-.afsh5anat li:hover {
-    transform: translateX(20px);
-}

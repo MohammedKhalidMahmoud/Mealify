@@ -16,58 +16,57 @@
 </head>
 <body>
     <!-- nav  -->
-    <div class="flex justify-content-space-between bg-c-white fixed top-0 left-0 w-full">
-        <h3 >Mealify.</h3>    
-        <ul class="list-dots-remove flex">
-            <li class="p-2-p font-white after relative">
-                <a class="decoration-none font-black " href="hero">Home</a>
+    <div class="nav flex justify-content-space-between align-items-center fixed top-0 left-0 w-full z-nav h-10-vh bg-c-white">
+        <h3 class="m-x-2-p  logo font-40">Mealify</h3>    
+        <ul class="list-dots-remove flex ">
+            <li class="   relative m-x-5-p">
+                <a class="decoration-none font-black font-24 after" href="hero">Home</a>
             </li>
-            <li class="p-2-p font-white underline relative">
-                <a class="decoration-none font-black "  href="#chefs">Chefs</a>
+            <li class="relative m-x-5-p">
+                <a class="decoration-none font-custom-gray font-24 underline"  href="#chefs">Chefs</a>
             </li>
-            <li class="p-2-p font-white underline relative">
-                <a class="decoration-none font-black "  href="#gallery">Gallery</a>
+            <li class="underline relative m-x-5-p ">
+                <a class="decoration-none font-custom-gray font-24"  href="#gallery">Gallery</a>
             </li>
-            <li class="p-2-p font-white underline relative">
-                <a class="decoration-none font-black"  href="#contact">Contact</a>
+            <li class="underline relative m-x-5-p">
+                <a class="decoration-none font-custom-gray font-24"  href="#contact">Contact</a>
             </li>
         </ul>
-        <button type=""></button>
+        <button type="radio" class="m-x-2-p p-x-20 p-y-10 bg-c-white border-none font-20 font-green">Click Me</button>
     </div>
     <!-- Hero Section  -->
-    <section class="hero" id="hero">
-        <br><br> 
-        <br><br>
-        <div class="content">
-            <h3>ENJOY YOUR HEALTY DELICIIOUS FOOD</h3>
-            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    <section class="hero flex flex-wrap  justify-content-center align-items-center h-100-vh margin-top-auto" id="hero">
+        <div class="h-90-vh bg-c-black"></div>
+        <div class="hero-content p-20 bg-c-blue">
+            <h3 class="font-40">ENJOY YOUR HEALTY DELICIIOUS FOOD</h3>
+            <P class="font-30">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Veniam, deserunt?
             </P>
-            <button class="w-120 h-40 bg-c-tomato btn-1 border-none"><span class="font-white font-17">Book a Table</span></button>
+            <button class="w-150 h-40 bg-c-tomato btn-1 border-none"><span class="font-white font-17">Book a Table</span></button>
             <button class="w-40 h-80 b-r-circle btn-2 b-solid b-tomato "></button>
             <span>Watch a Video</span>
         </div>
-        <div class="img-div w-50-p p-">
-            <img src="" alt="">
+        <div class="img-div hero-img bg-c-black p-8-p">
+            <img class="w-full" src="./imgs/hero-img.png" alt="">
         </div>
     </section>
     <!-- Chefs Section  -->
     <section class="" id="chefs">
         
-        <h3 class="text-center">CHEFS</h3>
-        <h2 class="text-center">OUR PROFFESIONAL CHEFS</h2>
+        <h3 class="text-center font-custom-gray">CHEFS</h3>
+        <h2 class="text-center"><span class="font-custom-black">OUR </span><span class="font-custom-red">PROFFESIONAL</span> <span class="font-custom-black">CHEFS</span> </h2>
         <div class="flex flex-wrap">
 
         
-            <div class="card w-full-3 bg-c-white p-2-p">
-                <div class="container w-full transition-400-ms w-95-p relative">
-                    <div class="layer flex flex-direction-column  bg-c-black absolute right-0 top-0 transition-delay-1">
-                        <i class="fa-brands fa-twitter font-white font-24 p-x-5-p p-y-2-p"></i>
-                        <i class="fa-brands fa-facebook-f font-white font-24 p-x-5-p p-y-2-p"></i>
-                        <i class="fa-brands fa-instagram font-white font-24 p-x-5-p p-y-2-p"></i>
-                        <i class="fa-brands fa-linkedin font-white font-24 p-x-5-p p-y-2-p"></i>
+            <div class="card w-full-3 bg-c-white box-shadow overflow-hidden">
+                <div class="container w-full transition-all-600-ms p-2-p relative">
+                    <div class="layer flex flex-direction-column gap-15 b-r-5 absolute bg-c-black w-fit h-fit p-2-p top-0 left-110 transition-delay-1 ">
+                        <i class="fa-brands fa-twitter font-white font-24 text-center"></i>
+                        <i class="fa-brands fa-facebook-f font-white font-24 text-center"></i>
+                        <i class="fa-brands fa-instagram font-white font-24 text-center"></i>
+                        <i class="fa-brands fa-linkedin font-white font-24 text-center"></i>
                     </div>
-                    <img class="w-full relative" src="./imgs/chefs-1.jpg" alt=""> 
+                    <img class="w-full " src="./imgs/chefs-1.jpg" alt=""> 
                     <!-- <img src="" alt=""> -->
                     <div class="content text-center">
                         <h2>Walter White</h2>
@@ -76,106 +75,221 @@
                         tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
                         </p>
                     </div> 
+                    
+                </div>
+            </div>      
+            <div class="card w-full-3 bg-c-white box-shadow overflow-hidden">
+                <div class="container w-full transition-all-600-ms p-2-p relative">
+                    <div class="layer flex flex-direction-column gap-15 b-r-5 absolute bg-c-black w-fit h-fit p-2-p top-0 left-110 transition-delay-1 ">
+                        <i class="fa-brands fa-twitter font-white font-24 text-center"></i>
+                        <i class="fa-brands fa-facebook-f font-white font-24 text-center"></i>
+                        <i class="fa-brands fa-instagram font-white font-24 text-center"></i>
+                        <i class="fa-brands fa-linkedin font-white font-24 text-center"></i>
+                    </div>
+                    <img class="w-full " src="./imgs/chefs-2.jpg" alt=""> 
+                    <!-- <img src="" alt=""> -->
+                    <div class="content text-center">
+                        <h2>Walter White</h2>
+                        <h3>Master Chef</h3>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
+                        tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                        </p>
+                    </div> 
+                    
+                </div>
+            </div>      
+            </div>      
+            <div class="card w-full-3 bg-c-white box-shadow overflow-hidden">
+                <div class="container w-full transition-all-600-ms p-2-p relative">
+                    <div class="layer flex flex-direction-column gap-15 b-r-5 absolute bg-c-black w-fit h-fit p-2-p top-0 left-110 transition-delay-1 ">
+                        <i class="fa-brands fa-twitter font-white font-24 text-center icon"></i>
+                        <i class="fa-brands fa-facebook-f font-white font-24 text-center icon"></i>
+                        <i class="fa-brands fa-instagram font-white font-24 text-center icon"></i>
+                        <i class="fa-brands fa-linkedin font-white font-24 text-center icon"></i>
+                    </div>
+                    <img class="w-full " src="./imgs/chefs-3.jpg" alt=""> 
+                    <!-- <img src="" alt=""> -->
+                    <div class="content text-center">
+                        <h2>Walter White</h2>
+                        <h3>Master Chef</h3>
+                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
+                        tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
+                        </p>
+                    </div> 
+                    
                 </div>
             </div>      
         
-            <div class="card w-full-3 bg-c-white p-2-p">
-                <div class="container w-full transition-400-ms w-95-p relative">
-                    <div class="layer flex flex-direction-column  bg-c-black absolute right-0 top-0 transition-delay-1">
-                        <i class="fa-brands fa-twitter font-white font-24 p-x-5-p p-y-2-p"></i>
-                        <i class="fa-brands fa-facebook-f font-white font-24 p-x-5-p p-y-2-p"></i>
-                        <i class="fa-brands fa-instagram font-white font-24 p-x-5-p p-y-2-p"></i>
-                        <i class="fa-brands fa-linkedin font-white font-24 p-x-5-p p-y-2-p"></i>
-                    </div>
-                    <img class="w-full relative" src="./imgs/chefs-1.jpg" alt=""> 
-                    <!-- <img src="" alt=""> -->
-                    <div class="content text-center">
-                        <h2>Walter White</h2>
-                        <h3>Master Chef</h3>
-                        <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
-                        tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-                        </p>
-                    </div> 
-                </div>
-            </div>   
             
-                <div class="card w-full-3 bg-c-white p-2-p">
-                    <div class="container w-full transition-400-ms w-95-p relative">
-                        <div class="layer flex flex-direction-column  bg-c-black absolute right-0 top-0 transition-delay-1">
-                            <i class="fa-brands fa-twitter font-white font-24 p-x-5-p p-y-2-p"></i>
-                            <i class="fa-brands fa-facebook-f font-white font-24 p-x-5-p p-y-2-p"></i>
-                            <i class="fa-brands fa-instagram font-white font-24 p-x-5-p p-y-2-p"></i>
-                            <i class="fa-brands fa-linkedin font-white font-24 p-x-5-p p-y-2-p"></i>
-                        </div>
-                        <img class="w-full relative" src="./imgs/chefs-1.jpg" alt=""> 
-                        <!-- <img src="" alt=""> -->
-                        <div class="content text-center">
-                            <h2>Walter White</h2>
-                            <h3>Master Chef</h3>
-                            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel
-                            tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-                            </p>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </div> 
+    
+        </div>
+     
         
     </section>
     <!-- Gallery Section  -->
     <section id="gallery" class="">
         <h3 class="text-center">GALLERY</h3>
         <h2 class="text-center">CHECK OUR GALLERY</h2>
-        <div class="">
-            <div class="obj relative w-full-3 overflow-hidden">
-                <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
-                    <h3 class="font-white">Pizza</h3>
-                    <p class="font-white">Hawaiian pizza with ham and pineapple</p>
-                </div>
-                <img class="w-full" src="./imgs/meal-1.jpg" alt="">
+        <div class="grid">
+            <div class="container-1 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Pizza</h3>
+                        <p class="font-white text-center">Hawaiian pizza with ham and pineapple</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-1.jpg" alt="">
+                </div>  
             </div>
-            
+            <div class="container-2 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Levitation pizza</h3>
+                        <p class="font-white text-center">Levitation pizza on black background.</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-2.jpg" alt="">
+                </div>  
+            </div>
+            <div class="container-3 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Beef steaks</h3>
+                        <p class="font-white text-center">Tasty beef steaks flying above cast iron grate with fire flames.</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-3.jpg" alt="">
+                </div>  
+            </div>
+            <div class="container-4 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Frittata</h3>
+                        <p class="font-white text-center">Frittata or potato pie in a ceramic plate</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-4.jpg" alt="">
+                </div>  
+            </div>
+            <div class="container-5 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Burger</h3>
+                        <p class="font-white text-center">grass fed bison hamburger with chips & beer</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-5.jpg" alt="">
+                </div>  
+            </div>
+            <div class="container-6 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Crispy Fried Chicken</h3>
+                        <p class="font-white text-center">Golden brown chicken legs with a crunchy coating and juicy meat</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-6.jpg" alt="">
+                </div>  
+            </div>
+            <div class="container-7 m-x-30 m-y-15">
+                <div class="obj relative w-full-3 overflow-hidden">
+                    <div class="absolute w-full h-full top-100 left-0 bg-c-black transition-all-600-ms hello flex justify-content-center align-items-center flex-direction-column ">
+                        <h3 class="font-white text-center">Lyulya kebab</h3>
+                        <p class="font-white text-center">Tender and juicy skewers of ground lamb or beef, flavored with aromatic spices and herbs</p>
+                    </div>
+                    <img class="w-full" src="./imgs/meal-7.jpg" alt="">
+                </div>  
+            </div>
         </div>
     </section>
     <!-- Contact Section  -->
-    <section id="contact" class="">
+    <section id="contact " class="p-20">
         <h2 class="text-center">CONTACT</h2>
         <h3 class="text-center">NEED HELP ? CONTACT US</h3>
         <!-- iframe  -->
-        <div class="p-x-20 p-y-10">
-            <img src="" alt="">
-            <div class="flex p-x-25  w-full-2 p-y-15">
-                <div class="p-x-20 p-y-15 ">
-                    <i class="fa-solid fa-map font-32"></i>
+        <iframe src="" frameborder="0"></iframe>
+        <div class="flex flex-wrap row-gap-20 ">
+            <div class="p-x-20 p-y-10 w-full-2 bg-c-lightgray w-50">
+                <img src="" alt="">
+                <div class="flex p-x-25  w-full-2 p-y-15 ">
+                    <div class="flex justify-content-center align-items-center bg-c-custom-red b-r-circle w-80 h-80">
+                        <i class="fa-solid fa-map font-28"></i>
+                    </div>
+                    <div class="p-x-10  ">
+                        <h3 class="m-b-5 font-30">Our Address</h3>
+                        <p class="m-t-5 font-30">A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                    
                 </div>
-                <div class="">
-                    <h3 class="m-b-5">Our Address</h3>
-                    <p class="m-t-5">A108 Adam Street, New York, NY 535022</p>
+            </div>
+            <div class="p-x-20 p-y-10 w-full-2 bg-c-lightgray w-90-p">
+                <img src="" alt="">
+                <div class="flex p-x-25  p-y-15">
+                    <div class="flex justify-content-center align-items-center bg-c-custom-red b-r-circle w-80 h-80">
+                        <i class="fa-solid fa-envelope font-32"></i>
+                    </div>
+                    <div class="p-x-10">
+                        <h3 class="m-b-5 font-30">Call Us</h3>
+                        <p class="m-t-5 font-28 ">+1 5589 55488 55</p>
+                    </div>
+                    
                 </div>
-                
+            </div>
+            <div class="p-x-20 p-y-10 w-full-2 bg-c-lightgray">
+                <img src="" alt="">
+                <div class="flex p-x-25  p-y-15">
+                    <div class="flex justify-content-center align-items-center b-r-circle w-80 h-80 bg-c-custom-red">
+                        <i class="fa-solid fa-phone font-32"></i>
+                    </div>
+                    <div class="p-x-10">
+                        <h3 class="m-b-5 font-30">Email Us</h3>
+                        <p class="m-t-5 font-28 ">contact@example.com</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="p-x-20 p-y-10 w-full-2 bg-c-lightgray">
+                <img src="" alt="">
+                <div class="flex p-x-25  p-y-15">
+                    <div class="b-r-circle w-80 h-80 bg-c-custom-red flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-share-nodes font-36"></i>
+                    </div>
+                    <div class="p-x-10">
+                        <h3 class="m-b-5 font-30">Opening Hours</h3>
+                        <p class="m-t-5 font-28 ">Mon-Sat: 11AM - 23PM; Sunday : Closed</p>
+                    </div>
+                    
+                </div>
             </div>
         </div>
-        <!-- <i class="fa-solid fa-envelope"></i>
-                    <i class="fa-solid fa-phone"></i>
-                    <i class="fa-solid fa-share-nodes"></i> -->
-        <form action="" class="w-90-p margin-auto">
-            <input class="p-x-10 p-y-15 w-95-p m-y-6" type="text" required placeholder="Your Name">
-            <input class="p-x-10 p-y-15 w-95-p m-y-6" type="email" required placeholder="Your Email">
-            <input class="p-x-10 p-y-15 w-95-p m-y-6 " type="text" required placeholder="Subject">
-            <input class="p-x-10 p-y-15 w-95-p m-y-6" type="text" required placeholder="Message">
-            <button class="p-x-15 p-y-12 m-y-6 b-r-10 border-none font-18">Send Message</button>
+        <br><br>
+        
+        <!-- 
+                    
+                     -->
+        <form action="" class="w-85-p margin-auto box-shadow p-2-p">
+            <input class="p-x-10 p-y-15 w-95-p m-y-10 block margin-auto b-r-4 h-50" type="text" required placeholder="Your Name">
+            <input class="p-x-10 p-y-15 w-95-p m-y-6 block margin-auto b-r-4" type="email" required placeholder="Your Email">
+            <input class="p-x-10 p-y-15 w-95-p m-y-6 block margin-auto b-r-4" type="text" required placeholder="Subject">
+            <textarea class="p-x-10 p-y-15 w-95-p m-y-6 block margin-auto b-r-4 resize-both overflow-auto resize-vertical" name="" id="" placeholder="Your message"></textarea>
+            <button class="p-x-15 p-y-12 m-y-6 b-r-10 border-none font-18 translate-x-50">Send Message</button>
         </form>
     </section>
     <!-- Footer  -->
-    <footer>
+    <footer class="bg-c-black">
         <div>
             <div>
                 <img class="inline-block" src="" alt="">
                 <h3 class="text-center" class="inline-block"></h3>
                 <div>
-                    <p>Social Media</p>
-                    <div class="flex">
-                        <!-- 4 icons -->
+                    <p class="font-white font-30 text-center">Social Media</p>
+                    <div class="flex justify-content-space-around">
+                        <a href="" class="p-r-5">
+                            <i class="fa-brands font-xxlarge fa-facebook icon m-r-5 font-white"></i>
+                        </a>
+                        <a class="p-r-5" href="https://www.facebook.com/profile.php?id=100015701264664">
+                            <i class="fa-brands font-xxlarge fa-github icon m-r-5 font-white"></i>
+                        </a>
+                        <a class="p-r-5" href="">
+                            <i class="fa-brands font-xxlarge fa-linkedin icon m-r-5 font-white"></i>
+                        <a href="">  
+                        <a class="p-l-5" href="">
+                            <i class="fa-brands font-xxlarge fa-twitter icon m-r-5 font-white"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -192,22 +306,22 @@
             <div>
                 <h3 class="text-center">Quick Links</h3>
                 <ul class="list-dots-remove afsh5anat flex flex-wrap column-gap-20 row-gap-10">
-                    <li class="bg-c-blue transition-600-ms w-45-p p-x-20 p-y-10">
+                    <li class="bg-c-blue transition-all-600-ms w-45-p p-x-20 p-y-10">
                         <a class="bg-c-black "href="">> Menu</a>
                     </li>
-                    <li class="bg-c-blue transition-600-ms w-45-p">
+                    <li class="bg-c-blue transition-all-600-ms w-45-p">
                         <a class="bg-c-black "href="">> Menu</a>
                     </li>
-                    <li class="bg-c-blue transition-600-ms w-45-p">
+                    <li class="bg-c-blue transition-all-600-ms w-45-p">
                         <a class="bg-c-black "href="">> Menu</a>
                     </li>
-                    <li class="bg-c-blue transition-600-ms w-45-p">
+                    <li class="bg-c-blue transition-all-600-ms w-45-p">
                         <a class="bg-c-black "href="">> Menu</a>
                     </li>
-                    <li class="bg-c-blue transition-600-ms w-45-p">
+                    <li class="bg-c-blue transition-all-600-ms w-45-p">
                         <a class="bg-c-black "href="">> Menu</a>
                     </li>
-                    <li class="bg-c-blue transition-600-ms w-45-p">
+                    <li class="bg-c-blue transition-all-600-ms w-45-p">
                         <a class="bg-c-black "href="">> Menu</a>
                     </li>
                 </ul>

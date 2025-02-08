@@ -6,6 +6,31 @@
     box-sizing: border-box;
     margin:0;
  }
+
+:root{
+    --custom-gray:#808091;
+    --custom-red:rgb(206,18,18);
+    --custom-black:rgb(73,76,79);
+   
+}
+.font-custom-gray{
+    color:var(--custom-gray);
+}
+.font-custom-red{
+    color:var(--custom-red);
+}
+.font-custom-black{
+    color:var(--custom-black);
+}
+.bg-c-custom-red{
+    background-color: var(--custom-red);
+}
+.bg-c-custom-black{
+    background-color: var(--custom-black);
+}
+.bg-c-custom-gray{
+    background-color: var(--custom-gray);
+}
 .btn-2{
     border-radius:100% 0 0 100%/ 50% 0 0 50%;
     
@@ -13,7 +38,7 @@
 }
 
 .btn-1{
-    border-radius:0% 25% 25% 25%/ 0% 50% 50% 50%;
+    border-radius:0% 25% 25% 20%/ 0% 48% 48% 40%;
 }
 
 .underline::after{
@@ -26,15 +51,85 @@
     width:0%;
     height:2px;
     background-color: tomato;
-    transition-duration: 1s;
+    transition-duration: 0.65s;
 }
 
 .after::after{
     content:'';
     position:absolute;
     left:0;
-    top:90%;
+    top:100%;
     background-color: tomato;
     width:100%;
     height:2px;
 }
+
+.grid{
+    /* height:100vh; */
+    /* grid-template-columns: repeat(1,100%); */
+    /* grid-template-rows: 100px;  */
+    
+    grid-template-areas: 
+    'pic-1'
+    'pic-2'
+    'pic-3'
+    'pic-4'
+    'pic-5'
+    'pic-6'
+    'pic-7'
+    ;
+}
+.container-1{
+    grid-area: pic-1;
+    /* background-color: red; */
+}
+.container-1 img{
+    width:1000px;
+}
+.container-2{
+    grid-area: pic-2;
+}
+.container-3{
+    grid-area: pic-3;
+}
+.container-4{
+    grid-area: pic-4;
+}
+.container-5{
+    grid-area: pic-5;
+}
+.container-6{
+    grid-area: pic-6;
+}
+.container-7{
+    grid-area: pic-7;
+}
+
+/* "pic-1 pic-3 pic-5"
+    "pic-2 pic-3 pic-6"
+    "pic-2 pic-3 pic-7"
+    "pic-2 pic-4 pic-7"
+    ". pic-4 ." */
+
+.logo{
+    position:relative
+}
+.logo::after{
+    content:'';
+    position:absolute;
+    top:80%;
+    left:100%;
+    width:10px;
+    height:10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.z-nav ul{
+    transform: translateX(-20%);
+}
+
+.nav a:hover{
+    color:black;
+}
+
