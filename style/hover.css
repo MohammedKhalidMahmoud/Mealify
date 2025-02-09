@@ -4,6 +4,7 @@
 }
 .card .layer{
     transition-delay:0.2s ;
+    transition-duration: 0.5s;  
     
 }
 
@@ -12,8 +13,25 @@
 }
 
 .card:hover .layer{
-    left:90%;
-    transition-duration: 0.5s;  
+    left:88%;
+   
 }
 
 
+.obj:hover .layer{
+    top:0%;
+}
+
+.hero-img img:hover{
+    /* transform:rotate(10deg) translateX(20px) ; */
+    animation: animate 0.1s infinite alternate;
+}
+
+@keyframes animate{
+    from{
+        transform:rotate(-1deg) translateX(-2px) translateY(-2px) ;
+    }
+    to{
+        transform:rotate(1deg) translateX(1px) translateY(1px) ;
+    }
+}
