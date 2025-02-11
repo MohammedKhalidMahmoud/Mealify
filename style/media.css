@@ -1,27 +1,51 @@
 
  @media(min-width:650px){
     .w-full-2,.w-full-3,.w-full-4{
-        width:45%;
+        width:calc(100%/2 - 20px);
         
+    }
+ }
+ @media(min-width:800px){
+    .hero-img img{
+        height:80%;
+    }
+ }
+ @media(min-width:900px){
+    .hero-img img{
+        height:85%;
     }
  }
  @media(min-width:950px){
     .w-full-3,.w-full-4{
         width:29%;
     }
+    .hero{
+        flex-direction: row-reverse;
+    }
+    .hero-img, .hero-content{
+        /* margin-top:100px; */
+        height:auto;
+        width:calc(100%/2);
+    } 
+    .hero-img img{
+        width:100%;
+    }
+    .hero-content h3{
+        font-size: 50px;
+    }
+    .hero-content p{
+        font-size: 40px;
+    }
+ }
+ @media (min-width:1000px){
     
  }
  @media(min-width:1150px){
-    .hero{
-        flex-direction: row;
-    }
-    .hero-img, .hero-content{
-        width:calc(100%/2);
-    }
     .w-full-4{
-        width:calc(100%/4);
+        width:calc(100%/4 -20px);
         
     }
+    
  }
 
 
@@ -52,7 +76,8 @@
         "pic-4 pic-2 pic-5"
         "pic-4 pic-2 pic-6"
         "pic-4 pic-7 pic-6"
-        ". pic-7 ."
+        "pic-4 pic-7 pic-6"
+        ".     pic-7 ."
         
         ;
     }

@@ -11,7 +11,7 @@
     --custom-gray:#808091;
     --custom-red:rgb(206,18,18);
     --custom-black:rgb(73,76,79);
-   
+    --input-color: #ccc;
 }
 .font-custom-gray{
     color:var(--custom-gray);
@@ -21,6 +21,12 @@
 }
 .font-custom-black{
     color:var(--custom-black);
+}
+.font-input-color{
+    color: var(--input-color);
+}
+.border-input-color{
+    border-color:var(--input-color);
 }
 .bg-c-custom-red{
     background-color: var(--custom-red);
@@ -147,3 +153,15 @@ input:checked {
   transform: rotateX(180deg) translateY(40px);
  
 }
+
+.wavy{
+    position: absolute;
+    top:60%;
+}
+
+.border-custome-gray{
+    border-color:var(--custom-gray);
+}
+
+
+
